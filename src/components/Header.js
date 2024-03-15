@@ -5,7 +5,7 @@ import { ReactComponent as GetirYemekLogo } from "getir-svg/getir-yemek.svg";
 import { ReactComponent as GetirBüyükLogo } from "getir-svg/getir-büyük.svg";
 export default function Header() {
   return (
-    <div className=" bg-brand-color ">
+    <div className=" bg-brand-color z-50 sticky top-0 ">
       <div className="container mx-auto h-11 flex items-center justify-between">
         <div className="flex">
         <a href="#" className="scale-75">

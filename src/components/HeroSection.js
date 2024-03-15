@@ -19,7 +19,7 @@ export default function HeroSection() {
     infinite: true,
     speed: 500,
     autoplaySpeed: 3000,
-    autoplay: false,
+    autoplay: true,
     arrows: false,
     slidesToShow: 1,
     slidesToScroll: 1,
