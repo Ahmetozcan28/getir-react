@@ -1,6 +1,6 @@
 export default function MobileApp() {
   return (
-    <div className="flex justify-between items-center md:container mx-auto bg-primary-brand-color md:mb-10   md:rounded-lg text-white md:mt-10 bg-mobile-card ">
+    <div className="flex overflow-hidden relative justify-between items-center md:container mx-auto bg-primary-brand-color md:mb-10   md:rounded-lg text-white md:mt-10 bg-mobile-card ">
       <div className="flex flex-col gap-y-4 md:p-16 p-8">
         <h3 className=" font-bold md:text-3xl text-2xl ">Getir'i indir!</h3>
         <p className="font-semibold md:text-xl tracking-tighter ">
@@ -19,8 +19,8 @@ export default function MobileApp() {
           </a>
         </nav>
       </div>
-      <picture className="pt-10 hidden md:block">
-        <img src="https://cdn.getir.com/getirweb-images/common/landing/phoneLanding.png"></img>
+      <picture className="pt-10 hidden md:block absolute md:ml-[550px] xl:right-0 bottom-0 lg:w-[605px] w-[500px] right-auto  ">
+        <img className="w-full h-full"  src="https://cdn.getir.com/getirweb-images/common/landing/phoneLanding.png"></img>
       </picture>
     </div>
   );
